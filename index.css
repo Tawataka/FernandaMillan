@@ -137,6 +137,7 @@ tr:nth-child(even) {
 	padding-left: 2em;
 	padding-top: 0;
 	padding-bottom: 0;
+	height: 4em;
 }
 #gray-section {
 	margin: 0;
