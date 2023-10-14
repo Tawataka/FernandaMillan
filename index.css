@@ -181,7 +181,7 @@ tr:nth-child(even) {
 	/* color: rgb(202, 174, 62); */
 }
 .tab .tablinks.default.active {
-	background-color: rgb(243, 242, 239);
+	/* background-color: rgb(243, 242, 239); */
 	/* color: rgb(202, 174, 62); */
 }
 .tab .tablinks.default:hover p {
