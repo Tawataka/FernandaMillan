@@ -1,0 +1,25 @@
+* {
+	padding: 5px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS',
+		'sans-serif';
+}
+
+.title {
+	font-size: calc(0.9rem + 1.1vw);
+}
+.subtitle {
+	font-size: calc(0.7rem + 0.5vw);
+}
+body {
+	font-size: calc(0.7rem + 0.5vw);
+}
+p {
+	font-size: calc(0.45rem + 0.65vw);
+}
+
+.section {
+	padding: 0;
+	margin: 0;
+}
