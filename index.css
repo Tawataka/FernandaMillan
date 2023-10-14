@@ -138,6 +138,9 @@ tr:nth-child(even) {
 	padding-top: 0;
 	padding-bottom: 0;
 }
+#banner .tab {
+	margin-top: 0;
+}
 #gray-section {
 	margin: 0;
 }
