@@ -14,7 +14,6 @@
 }
 body {
 	font-size: calc(0.7rem + 0.5vw);
-	background-color: blue;
 }
 p {
 	font-size: calc(0.45rem + 0.65vw);
@@ -164,7 +163,7 @@ tr:nth-child(even) {
 	/* border: 1px solid #ccc; */
 	background-color: rgb(142, 166, 252);
 	margin-top: 3em;
-	color: rgb(180, 155, 54);
+	color: rgb(137, 137, 137);
 }
 #banner {
 	background-color: rgb(142, 166, 252);
