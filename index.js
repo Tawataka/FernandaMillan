@@ -19,13 +19,6 @@ function tabsPage(event, tabOption) {
 function init() {}
 
 $(document).ready(function () {
-	let darkmode = sessionStorage.getItem('mode')
-	console.log(darkmode)
-	if (darkmode === 'darkmode') {
-		let darkModeButton = document.getElementById('darkmode-button')
-		darkModeButton.click()
-	}
-
 	let tabId = sessionStorage.getItem('event')
 	console.log(tabId)
 	if (tabId == null) {

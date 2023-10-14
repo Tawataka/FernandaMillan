@@ -162,9 +162,9 @@ tr:nth-child(even) {
 .tab {
 	overflow: hidden;
 	/* border: 1px solid #ccc; */
-	background-color: rgb(255, 221, 87);
+	background-color: rgb(108, 140, 255);
 	margin-top: 3em;
-	color: rgb(180, 155, 54);
+	color: rgb(54, 40, 141);
 }
 .tab .tablinks {
 	background-color: inherit;
