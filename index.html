@@ -1,83 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<!-- <script src="importScripts.js"></script> -->
-		<script
-			src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-			integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-			crossorigin="anonymous"
-		></script>
-		<link
-			rel="stylesheet"
-			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-			crossorigin="anonymous"
-		/>
-		<base href="[[=URL('static')]]/" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
+<head>
+	<!-- <script src="importScripts.js"></script> -->
+	<script
+		src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"
+	></script>
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"
+	></script>
+	<script
+		src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"
+	></script>
+	<link
+		rel="stylesheet"
+		href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+		crossorigin="anonymous"
+	/>
+	<base href="[[=URL('static')]]/" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.1/css/bulma.min.css"
-		/>
+	<link
+		rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+	/>
+	<link
+		rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.1/css/bulma.min.css"
+	/>
 
-		<link rel="stylesheet" type="text/css" href="index.css" media="”screen”" />
+	<link rel="stylesheet" type="text/css" href="index.css" media="”screen”" />
 
-		<script type="text/javascript">
-			let lastKnownScrollPosition = 0
-			let ticking = false
+	<script type="text/javascript">
+		let lastKnownScrollPosition = 0
+		let ticking = false
 
-			function tabsPage(event, tabOption) {
-				sessionStorage.setItem('event', tabOption + '-tab')
+		function tabsPage(event, tabOption) {
+			sessionStorage.setItem('event', tabOption + '-tab')
 
-				tabcontent = document.getElementsByClassName('tabcontent')
-				for (i = 0; i < tabcontent.length; i++) {
-					tabcontent[i].style.display = 'none'
-				}
-				tablinks = document.getElementsByClassName('tablinks')
-				for (i = 0; i < tablinks.length; i++) {
-					tablinks[i].className = tablinks[i].className.replace(' active', '')
-				}
-				event.currentTarget.className += ' active'
-				document.getElementById(tabOption).style.display = 'block'
+			tabcontent = document.getElementsByClassName('tabcontent')
+			for (i = 0; i < tabcontent.length; i++) {
+				tabcontent[i].style.display = 'none'
+			}
+			tablinks = document.getElementsByClassName('tablinks')
+			for (i = 0; i < tablinks.length; i++) {
+				tablinks[i].className = tablinks[i].className.replace(' active', '')
+			}
+			event.currentTarget.className += ' active'
+			document.getElementById(tabOption).style.display = 'block'
+		}
+
+		function init() {}
+
+		$(document).ready(function () {
+			let darkmode = sessionStorage.getItem('mode')
+			console.log(darkmode)
+			if (darkmode === 'darkmode') {
+				let darkModeButton = document.getElementById('darkmode-button')
+				darkModeButton.click()
 			}
 
-			function init() {}
+			let tabId = sessionStorage.getItem('event')
+			console.log(tabId)
+			if (tabId == null) {
+				tabId = 'resume-tab'
+			}
+			let temp = document.getElementById(tabId)
+			temp.click()
+		})
 
-			$(document).ready(function () {
-				let darkmode = sessionStorage.getItem('mode')
-				console.log(darkmode)
-				if (darkmode === 'darkmode') {
-					let darkModeButton = document.getElementById('darkmode-button')
-					darkModeButton.click()
-				}
-
-				let tabId = sessionStorage.getItem('event')
-				console.log(tabId)
-				if (tabId == null) {
-					tabId = 'resume-tab'
-				}
-				let temp = document.getElementById(tabId)
-				temp.click()
-			})
-
-			init()
-		</script>
-	</head>
+		init()
+	</script>
+</head>
+<html lang="en">
 	<body id="darkmode">
 		<div id="banner" class="hero is-warning">
 			<div id="banner-title" class="level is-parent is-warning">
