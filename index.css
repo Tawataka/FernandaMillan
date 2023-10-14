@@ -177,7 +177,7 @@ tr:nth-child(even) {
 	font-size: 17px;
 }
 .tab .tablinks.default:hover {
-	background-color: rgb(243, 242, 239);
+	/* background-color: rgb(243, 242, 239); */
 	/* color: rgb(202, 174, 62); */
 }
 .tab .tablinks.default.active {
@@ -189,20 +189,6 @@ tr:nth-child(even) {
 }
 .tab .tablinks.default.active p {
 	color: rgb(54, 54, 54);
-}
-.tab .tablinks.darkmode:hover {
-	background-color: rgb(27, 30, 49);
-	/* color: rgb(202, 174, 62); */
-}
-.tab .tablinks.darkmode.active {
-	background-color: rgb(27, 30, 49);
-	/* color: rgb(202, 174, 62); */
-}
-.tab .tablinks.darkmode:hover p {
-	color: rgb(250, 250, 250);
-}
-.tab .tablinks.darkmode.active p {
-	color: rgb(250, 250, 250);
 }
 a #darkmode-button.default {
 	color: rgb(214, 184, 65);
