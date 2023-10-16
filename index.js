@@ -22,7 +22,7 @@ $(document).ready(function () {
 	let tabId = sessionStorage.getItem('event')
 	console.log(tabId)
 	if (tabId == null) {
-		tabId = 'resume-tab'
+		tabId = 'home-tab'
 	}
 	let temp = document.getElementById(tabId)
 	temp.click()

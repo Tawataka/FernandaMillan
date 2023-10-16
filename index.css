@@ -40,19 +40,19 @@ tr:nth-child(even) {
 #contact-information {
 	padding-right: 0em;
 }
-#resume {
+#home {
 	display: none;
 	background-color: rgb(243, 242, 239);
 	margin: 0;
 	padding: 0;
 }
-#portfolio {
+#experience {
 	display: none;
 	background-color: rgb(243, 242, 239);
 	margin: 0;
 	padding: 0;
 }
-#gallery {
+#contact {
 	display: none;
 	background-color: rgb(243, 242, 239);
 	margin: 0;
@@ -118,9 +118,9 @@ tr:nth-child(even) {
 #body-contact-information strong {
 	padding: 0;
 }
-#resume-tab,
-#portfolio-tab,
-#gallery-tab {
+#home-tab,
+#experience-tab,
+#contact-tab {
 	padding-left: calc(1rem + 1vw);
 	padding-right: calc(1rem + 1vw);
 	padding-top: calc(0.5rem + 0.5vw);
@@ -146,7 +146,7 @@ tr:nth-child(even) {
 #white-section {
 	margin: 0;
 }
-#gallery-section {
+#contact-section {
 	/* width: 75%; */
 	margin: auto;
 	padding-left: calc(0.05rem + 10vw);
@@ -155,7 +155,7 @@ tr:nth-child(even) {
 	padding-bottom: 1.5em;
 	margin-top: 1.5em;
 }
-#gallery-section .columns {
+#contact-section .columns {
 	padding: 0;
 }
 .tab {
