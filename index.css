@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
 	padding: 5px;
 	margin: 0px;
@@ -107,7 +111,7 @@ tr:nth-child(even) {
 	padding-bottom: 10em;
 	text-align: right;
 }
-#body-contact-information .container {
+.container {
 	/* width: 75%; */
 	margin: auto;
 	padding-top: 0;

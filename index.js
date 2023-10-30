@@ -15,6 +15,12 @@ function tabsPage(event, tabOption) {
 	event.currentTarget.className += ' active'
 	document.getElementById(tabOption).style.display = 'block'
 }
+function sendEmail() {
+	let email = document.getElementById('email').value
+	let subject = document.getElementById('subject').value
+	let message = document.getElementById('Inputbody').value
+	console.log(email, subject, message)
+}
 
 function init() {}
 

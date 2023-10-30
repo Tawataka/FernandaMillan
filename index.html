@@ -35,6 +35,7 @@
 		rel="stylesheet"
 		href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.1/css/bulma.min.css"
 	/>
+	<link href="/dist/output.css" rel="stylesheet" />
 </head>
 <html lang="en">
 	<body id="darkmode">
@@ -79,9 +80,8 @@
 
 		<section class="section tabcontent" id="contact">
 			<div class="container is-fluid">
-				n
 				<div class="container-title">
-					<h3>Contact Me</h3>
+					<h2 class="subtitle">Contact Me</h2>
 				</div>
 				<div class="container-body">
 					<form>
@@ -89,9 +89,11 @@
 							<label for="InputEmail1">Email address</label>
 							<input
 								type="email"
+								id="email"
 								class="form-control"
 								aria-describedby="emailHelp"
 								placeholder="Enter email"
+								onchange="sendEmail()"
 							/>
 							<small id="emailHelp" class="form-text text-muted"
 								>We'll never share your email with anyone else.</small
@@ -100,20 +102,29 @@
 						<div class="form-group">
 							<label for="InputSubject1">Subject</label>
 							<input
+								id="subject"
 								type="Subject"
 								class="form-control"
 								placeholder="Subject"
+								onchange="sendEmail()"
 							/>
 						</div>
 						<div class="form-group">
-							<label for="Inputbody1">Example textarea</label>
+							<label for="Inputbody">Example textarea</label>
 							<textarea
 								class="form-control"
-								id="Inputbody1"
+								id="Inputbody"
 								rows="3"
+								onchange="sendEmail()"
 							></textarea>
 						</div>
-						<button type="submit" class="btn btn-primary">Submit</button>
+						<a
+							id="submit-email"
+							type="submit"
+							class="btn btn-primary justify-items-end"
+							href="mailto:`{email}`?subject={subject}&body={body}"
+							>Submit</a
+						>
 					</form>
 				</div>
 			</div>
