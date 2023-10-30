@@ -20,6 +20,16 @@ function sendEmail() {
 	let subject = document.getElementById('subject').value
 	let message = document.getElementById('Inputbody').value
 	console.log(email, subject, message)
+
+	Email.send({
+		Host: 'smtp.yourisp.com',
+		Username: 'username',
+		Password: 'password',
+		To: 'tawareyna@gmail.com',
+		From: 'you@isp.com',
+		Subject: 'This is the subject',
+		Body: 'And this is the body',
+	}).then((message) => alert(message))
 }
 
 function init() {}
