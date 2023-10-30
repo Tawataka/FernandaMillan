@@ -302,5 +302,5 @@ a.project-link.darkmode:hover {
 	font-size: 40px;
 }
 #submit-email {
-	align-items: right;
+	align-self: right;
 }
