@@ -15,21 +15,32 @@ function tabsPage(event, tabOption) {
 	event.currentTarget.className += ' active'
 	document.getElementById(tabOption).style.display = 'block'
 }
+
 function sendEmail() {
 	let email = document.getElementById('email').value
-	let subject = document.getElementById('subject').value
+	let name = document.getElementById('name').value
 	let message = document.getElementById('Inputbody').value
-	console.log(email, subject, message)
+	console.log(email, name, message)
 
-	Email.send({
-		Host: 'smtp.yourisp.com',
-		Username: 'username',
-		Password: 'password',
-		To: 'tawareyna@gmail.com',
-		From: 'you@isp.com',
-		Subject: 'This is the subject',
-		Body: 'And this is the body',
-	}).then((message) => alert(message))
+	var params = {
+		name: document.getElementById('name').value,
+		email: document.getElementById('email').value,
+		message: document.getElementById('message').value,
+	}
+
+	const serviceID = 'service_zd9x9xm'
+	const templateID = 'template_xr1vmoc'
+
+	emailjs
+		.send(serviceID, templateID, params)
+		.then((res) => {
+			document.getElementById('name').value = ''
+			document.getElementById('email').value = ''
+			document.getElementById('message').value = ''
+			console.log(res)
+			alert('Your message sent successfully!!')
+		})
+		.catch((err) => console.log(err))
 }
 
 function init() {}

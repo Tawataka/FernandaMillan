@@ -36,6 +36,16 @@
 		href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.1/css/bulma.min.css"
 	/>
 	<script src="https://smtpjs.com/v3/smtp.js"></script>
+
+	<script
+		type="text/javascript"
+		src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+	></script>
+	<script type="text/javascript">
+		;(function () {
+			emailjs.init('nJOnTohF3872Ebg4y')
+		})()
+	</script>
 </head>
 <html lang="en">
 	<body id="darkmode">
@@ -93,36 +103,29 @@
 								class="form-control"
 								aria-describedby="emailHelp"
 								placeholder="Enter email"
-								onchange="sendEmail()"
 							/>
 							<small id="emailHelp" class="form-text text-muted"
 								>We'll never share your email with anyone else.</small
 							>
 						</div>
 						<div class="form-group">
-							<label for="InputSubject1">Subject</label>
+							<label for="Inputname1">Name</label>
 							<input
-								id="subject"
-								type="Subject"
+								id="name"
+								type="name"
 								class="form-control"
-								placeholder="Subject"
-								onchange="sendEmail()"
+								placeholder="name"
 							/>
 						</div>
 						<div class="form-group">
 							<label for="Inputbody">Example textarea</label>
-							<textarea
-								class="form-control"
-								id="Inputbody"
-								rows="3"
-								onchange="sendEmail()"
-							></textarea>
+							<textarea class="form-control" id="Inputbody" rows="3"></textarea>
 						</div>
 						<a
 							id="submit-email"
 							type="submit"
 							class="btn btn-primary"
-							href="mailto:`{email}`?subject={subject}&body={body}"
+							onclick="sendEmail()"
 							>Submit</a
 						>
 					</form>
