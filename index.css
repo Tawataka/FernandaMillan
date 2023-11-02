@@ -307,11 +307,15 @@ a.project-link.darkmode:hover {
 form {
 	margin: 2em;
 }
-header {
+.header {
 	margin-left: 2em;
 	margin-top: 2em;
 }
 
 #background-home {
-	background-image: url('https://tawataka.github.io/Resume/img/san_francisco.jpeg');
+	background-image: url('paper.gif');
+}
+
+.btn {
+	padding: 3em;
 }
