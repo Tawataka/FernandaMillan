@@ -311,3 +311,7 @@ header {
 	margin-left: 2em;
 	margin-top: 2em;
 }
+
+#background-home {
+	background-image: url('https://tawataka.github.io/Resume/img/san_francisco.jpeg');
+}
