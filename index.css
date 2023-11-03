@@ -50,6 +50,7 @@ tr:nth-child(even) {
 	margin: 0;
 	padding: 0;
 	background-image: url('https://tawataka.github.io/Resume/img/san_francisco.jpeg');
+	height: 30em;
 }
 #experience {
 	display: none;
