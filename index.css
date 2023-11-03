@@ -318,6 +318,7 @@ form {
 	height: 30em;
 	padding-top: 3em;
 	margin-top: 2.5em;
+	margin-bottom: 2.5em;
 }
 
 .btn {
@@ -325,4 +326,6 @@ form {
 }
 #get-started-section {
 	margin: 9em;
+}
+#button-home-details {
 }
