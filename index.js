@@ -43,6 +43,14 @@ function sendEmail() {
 		.catch((err) => console.log(err))
 }
 
+function buttonClick(pointer) {
+	if (pointer === 'contact') {
+		let tabId = 'contact-tab'
+		let temp = document.getElementById(tabId)
+		temp.click()
+	}
+}
+
 function init() {}
 
 $(document).ready(function () {

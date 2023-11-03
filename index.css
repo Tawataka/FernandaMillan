@@ -107,8 +107,8 @@ tr:nth-child(even) {
 }
 #body-contact-information {
 	background-color: rgb(243, 242, 239);
-	padding-top: 1.5em;
-	padding-bottom: 10em;
+	padding-top: 5em;
+	padding-bottom: 7em;
 	text-align: right;
 }
 .container {
@@ -334,4 +334,8 @@ form {
 }
 #bio-home-details {
 	text-align: center;
+	padding: 3em;
+}
+.buttons-home {
+	padding: 3em;
 }
