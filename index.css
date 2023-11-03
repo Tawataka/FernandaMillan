@@ -320,3 +320,9 @@ form {
 .btn {
 	padding: 3em;
 }
+#get-started-section {
+	margin: auto;
+	width: 60%;
+	border: 3px solid #73ad21;
+	padding: 10px;
+}
