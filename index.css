@@ -329,6 +329,9 @@ form {
 #button-home-details {
 	text-align: center;
 }
+.bio-home {
+	background-color: lightblue;
+}
 #bio-home-details {
 	text-align: center;
 }
