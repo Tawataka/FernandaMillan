@@ -49,6 +49,7 @@ tr:nth-child(even) {
 	background-color: rgb(243, 242, 239);
 	margin: 0;
 	padding: 0;
+	background-image: url('https://tawataka.github.io/Resume/img/san_francisco.jpeg');
 }
 #experience {
 	display: none;
@@ -313,7 +314,7 @@ form {
 }
 
 #background-home {
-	background-image: url('paper.gif');
+	background-image: url('https://tawataka.github.io/Resume/img/san_francisco.jpeg');
 }
 
 .btn {
