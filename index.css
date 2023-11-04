@@ -310,6 +310,7 @@ form {
 .header {
 	margin-left: 2em;
 	margin-top: 2em;
+	text-align: center;
 }
 
 #background-home {
@@ -338,4 +339,7 @@ form {
 }
 .buttons-home {
 	padding: 3em;
+}
+#contact-button {
+	text-align: right;
 }

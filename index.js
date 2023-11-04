@@ -48,6 +48,10 @@ function buttonClick(pointer) {
 		let tabId = 'contact-tab'
 		let temp = document.getElementById(tabId)
 		temp.click()
+	} else if (pointer === 'experience') {
+		let tabId = 'experience-tab'
+		let temp = document.getElementById(tabId)
+		temp.click()
 	}
 }
 
