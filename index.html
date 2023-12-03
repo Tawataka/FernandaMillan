@@ -138,6 +138,33 @@
 					</div>
 				</div>
 			</div>
+			<div class="container is-fluid">
+				<div class="container-body">
+					<div class="columns">
+						<div class="column is-one-third">
+							<div class="tile is-parent is-vertical">
+								<article class="body-information" class="tile is-child">
+									hello
+								</article>
+							</div>
+						</div>
+						<div class="column is-one-third">
+							<div class="tile is-parent is-vertical">
+								<article class="body-information" class="tile is-child">
+									hello
+								</article>
+							</div>
+						</div>
+						<div class="column">
+							<div class="tile is-parent is-vertical">
+								<article class="body-information" class="tile is-child">
+									hello
+								</article>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</section>
 		<section class="section tabcontent" id="experience">
 			<div class="container is-fluid">
@@ -181,41 +208,49 @@
 					<h2 class="title header">Contact Me</h2>
 				</div>
 				<div class="container-body">
-					<form>
-						<div class="form-group">
-							<label for="Inputname1">Name</label>
-							<input
-								id="name"
-								type="name"
-								class="form-control"
-								placeholder="name"
-							/>
-						</div>
-						<div class="form-group">
-							<label for="InputEmail1">Email address</label>
-							<input
-								type="email"
-								id="email"
-								class="form-control"
-								aria-describedby="emailHelp"
-								placeholder="Enter email"
-							/>
-							<small id="emailHelp" class="form-text text-muted"
-								>We'll never share your email with anyone else.</small
-							>
-						</div>
-						<div class="form-group">
-							<label for="Inputbody">Enquiry</label>
-							<textarea class="form-control" id="Inputbody" rows="3"></textarea>
-						</div>
-						<a
-							id="submit-email"
-							type="submit"
-							class="btn btn-info float-right"
-							onclick="sendEmail()"
-							>Submit</a
-						>
-					</form>
+					<div class="tile is-parent is-vertical">
+						<article class="body-information" class="tile is-child">
+							<form>
+								<div class="form-group">
+									<label for="Inputname1">Name</label>
+									<input
+										id="name"
+										type="name"
+										class="form-control"
+										placeholder="name"
+									/>
+								</div>
+								<div class="form-group">
+									<label for="InputEmail1">Email address</label>
+									<input
+										type="email"
+										id="email"
+										class="form-control"
+										aria-describedby="emailHelp"
+										placeholder="Enter email"
+									/>
+									<small id="emailHelp" class="form-text text-muted"
+										>We'll never share your email with anyone else.</small
+									>
+								</div>
+								<div class="form-group">
+									<label for="Inputbody">Enquiry</label>
+									<textarea
+										class="form-control"
+										id="Inputbody"
+										rows="3"
+									></textarea>
+								</div>
+								<a
+									id="submit-email"
+									type="submit"
+									class="btn btn-info float-right"
+									onclick="sendEmail()"
+									>Submit</a
+								>
+							</form>
+						</article>
+					</div>
 				</div>
 			</div>
 		</section>
