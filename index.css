@@ -101,6 +101,14 @@ tr:nth-child(even) {
 	/* box-shadow: 2px 2px 2px rgb(70, 70, 70); */
 	background-color: rgb(0, 0, 0);
 }
+.body-form {
+	padding-bottom: 3em;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 1em;
+	border-radius: 1em;
+	background-color: rgb(0, 0, 0);
+}
 .form-control {
 	background-color: rgb(255, 255, 255);
 	color: rgb(255, 255, 255);
