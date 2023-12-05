@@ -326,6 +326,9 @@ form {
 	margin-top: 2em;
 	text-align: center;
 }
+#plan-body {
+	text-align: center;
+}
 
 #background-home {
 	background-image: url('https://tawataka.github.io/Resume/img/san_francisco.jpeg');
