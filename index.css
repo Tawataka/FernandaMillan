@@ -141,6 +141,9 @@ tr:nth-child(even) {
 	padding-top: 0;
 	padding-bottom: 0;
 }
+#banner-title .level-left .title {
+	color: rgb(6, 0, 193);
+}
 #banner .tab {
 	margin-top: 0;
 }
@@ -167,10 +170,10 @@ tr:nth-child(even) {
 	/* border: 1px solid #ccc; */
 	background-color: rgb(142, 166, 252);
 	margin-top: 2em;
-	color: rgb(137, 137, 137);
+	color: rgb(255, 255, 255);
 }
 #banner {
-	background-color: rgb(142, 166, 252);
+	background-color: rgb(3, 3, 3);
 }
 .tab .tablinks {
 	background-color: inherit;
@@ -182,19 +185,19 @@ tr:nth-child(even) {
 	transition: 0.3s;
 	font-size: 17px;
 }
-.tab .tablinks.default:hover {
+/* .tab .tablinks.default:hover {
 	background-color: rgb(243, 242, 239);
-	/* color: rgb(202, 174, 62);  */
+	color: rgb(202, 174, 62);  
 }
 .tab .tablinks.default.active {
 	background-color: rgb(243, 242, 239);
-	/* color: rgb(202, 174, 62); */
-}
+	color: rgb(202, 174, 62); 
+} */
 .tab .tablinks.default:hover p {
-	color: rgb(54, 54, 54);
+	color: rgb(6, 0, 193);
 }
 .tab .tablinks.default.active p {
-	color: rgb(54, 54, 54);
+	color: rgb(6, 0, 193);
 }
 a #darkmode-button.default {
 	color: rgb(214, 184, 65);
