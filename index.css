@@ -142,7 +142,7 @@ tr:nth-child(even) {
 	padding-bottom: 0;
 }
 #banner-title .level-left .title {
-	color: rgb(6, 0, 193);
+	color: rgb(255, 255, 255);
 }
 #banner .tab {
 	margin-top: 0;
@@ -168,8 +168,8 @@ tr:nth-child(even) {
 .tab {
 	overflow: hidden;
 	/* border: 1px solid #ccc; */
-	background-color: rgb(142, 166, 252);
-	margin-top: 2em;
+	background-color: rgb(3, 3, 3);
+	margin-top: 1em;
 	color: rgb(255, 255, 255);
 }
 #banner {
