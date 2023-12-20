@@ -20,12 +20,17 @@ function sendEmail() {
 	let email = document.getElementById('email').value
 	let name = document.getElementById('name').value
 	let message = document.getElementById('Inputbody').value
-	console.log(email, name, message)
+	let level = document.getElementById('level').value
+	let date = document.getElementById('date').value
+
+	console.log(email, name, message, level, date)
 
 	var params = {
 		name: document.getElementById('name').value,
 		email: document.getElementById('email').value,
 		message: document.getElementById('Inputbody').value,
+		level: document.getElementById('level').value,
+		date: document.getElementById('date').value,
 	}
 
 	const serviceID = 'service_zd9x9xm'
@@ -37,6 +42,8 @@ function sendEmail() {
 			document.getElementById('name').value = ''
 			document.getElementById('email').value = ''
 			document.getElementById('Inputbody').value = ''
+			document.getElementById('level').value = ''
+			document.getElementById('date').value = ''
 			console.log(res)
 			alert('Your message sent successfully!!')
 		})
