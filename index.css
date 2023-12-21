@@ -121,8 +121,8 @@ tr:nth-child(even) {
 }
 #body-contact-information {
 	background-color: lightblue;
-	padding-top: 5em;
-	padding-bottom: 7em;
+	padding-top: 3em;
+	padding-bottom: 5em;
 	text-align: right;
 }
 .container {
