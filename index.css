@@ -120,7 +120,7 @@ tr:nth-child(even) {
 	padding-bottom: 0.5em;
 }
 #body-contact-information {
-	background-color: lightblue;
+	background-color: #8cacd3;
 	padding-top: 3em;
 	padding-bottom: 5em;
 	text-align: right;
@@ -208,10 +208,10 @@ tr:nth-child(even) {
 	color: rgb(202, 174, 62); 
 } */
 .tab .tablinks.default:hover p {
-	color: rgb(6, 0, 193);
+	color: #3c639c;
 }
 .tab .tablinks.default.active p {
-	color: rgb(6, 0, 193);
+	color: #3c639c;
 }
 /* a #darkmode-button.default {
 	color: rgb(214, 184, 65);
@@ -342,6 +342,14 @@ form {
 .btn {
 	padding: 3em;
 }
+.buttom-default {
+	background-color: #3c639c;
+	color: rgb(255, 255, 255);
+}
+.buttom-default:hover {
+	background-color: #5f799f;
+	color: rgb(255, 255, 255);
+}
 #get-started-section {
 	margin: 9em;
 }
@@ -349,7 +357,7 @@ form {
 	text-align: center;
 }
 .bio-home {
-	background-color: lightblue;
+	background-color: #8cacd3;
 }
 #bio-home-details {
 	text-align: center;
