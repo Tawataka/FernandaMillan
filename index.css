@@ -341,11 +341,10 @@ form {
 
 .btn {
 	padding: 3em;
-	background-color: #3c639c;
 }
-.buttom-default {
+#buttom-default {
 	background-color: #3c639c;
-	color: #3c639c;
+	color: rgb(255, 255, 255);
 }
 .buttom-default:hover {
 	background-color: #5f799f;
