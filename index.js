@@ -62,9 +62,7 @@ function buttonClick(pointer) {
 	}
 }
 
-function init() {}
-
-$(document).ready(function () {
+function init() {
 	let tabId = sessionStorage.getItem('event')
 	console.log(tabId)
 	if (tabId == null) {
@@ -72,6 +70,6 @@ $(document).ready(function () {
 	}
 	let temp = document.getElementById(tabId)
 	temp.click()
-})
+}
 
-init()
+setTimeout(init, 5000)
