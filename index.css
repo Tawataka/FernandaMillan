@@ -345,12 +345,12 @@ form {
 }
 .buttom-default {
 	background-color: #3c639c;
-	color: rgb(255, 255, 255);
+	color: #3c639c;
 }
-/* .buttom-default:hover {
+.buttom-default:hover {
 	background-color: #5f799f;
 	color: rgb(255, 255, 255);
-} */
+}
 #get-started-section {
 	margin: 9em;
 }
