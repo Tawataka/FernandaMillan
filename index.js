@@ -63,6 +63,7 @@ function buttonClick(pointer) {
 }
 
 function init() {
+	console.log('INIT')
 	let tabId = sessionStorage.getItem('event')
 	console.log(tabId)
 	if (tabId == null) {
