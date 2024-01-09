@@ -346,7 +346,7 @@ form {
 	background-color: #3c639c;
 	color: rgb(255, 255, 255);
 }
-.buttom-default:hover {
+#buttom-default:hover {
 	background-color: #5f799f;
 	color: rgb(255, 255, 255);
 }
