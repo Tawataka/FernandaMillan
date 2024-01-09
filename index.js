@@ -73,4 +73,4 @@ function init() {
 	temp.click()
 }
 
-setTimeout(init, 200)
+setTimeout(init, 400)
