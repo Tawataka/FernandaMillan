@@ -56,7 +56,9 @@ function buttonClick(pointer, level = null) {
 		let temp = document.getElementById(tabId)
 		temp.click()
 		if (level) {
+			console.log(level)
 			document.getElementById('level').value = level
+			console.log(document.getElementById('level').value)
 		}
 	} else if (pointer === 'experience') {
 		let tabId = 'experience-tab'
