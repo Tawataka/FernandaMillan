@@ -50,11 +50,14 @@ function sendEmail() {
 		.catch((err) => console.log(err))
 }
 
-function buttonClick(pointer) {
+function buttonClick(pointer, level = null) {
 	if (pointer === 'contact') {
 		let tabId = 'contact-tab'
 		let temp = document.getElementById(tabId)
 		temp.click()
+		if (level) {
+			document.getElementById('level').value = level
+		}
 	} else if (pointer === 'experience') {
 		let tabId = 'experience-tab'
 		let temp = document.getElementById(tabId)
