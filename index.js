@@ -78,8 +78,8 @@ function init() {
 	if (temp) {
 		temp.click()
 	} else {
-		init()
+		setTimeout(init, 200)
 	}
 }
 
-init()
+setTimeout(init, 200)
