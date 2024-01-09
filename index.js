@@ -75,7 +75,11 @@ function init() {
 		tabId = 'home-tab'
 	}
 	let temp = document.getElementById(tabId)
-	temp.click()
+	if (temp) {
+		temp.click()
+	} else {
+		init()
+	}
 }
 
-setTimeout(init, 400)
+init()
