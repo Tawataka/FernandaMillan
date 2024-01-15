@@ -349,6 +349,11 @@ form {
 #get-started-section {
 	margin: 9em 0em 9em 9em;
 }
+#get-started-image {
+	margin: 0em 7em 0em 0em;
+	padding: 0em;
+}
+
 #button-home-details {
 	text-align: center;
 }
