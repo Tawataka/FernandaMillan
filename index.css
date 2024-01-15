@@ -354,6 +354,9 @@ form {
 	padding: 0em;
 }
 
+.profile-image {
+	padding: 0;
+}
 #button-home-details {
 	text-align: center;
 }
