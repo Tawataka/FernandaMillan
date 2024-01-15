@@ -350,10 +350,10 @@ form {
 	color: rgb(255, 255, 255);
 }
 #get-started-section {
-	margin: 9em 0em 9em 9em;
+	margin: auto 7em auto 17em;
 }
 #get-started-image {
-	margin: 0em 7em 0em 0em;
+	margin: 0em 12em 0em 8em;
 	padding: 0em;
 }
 
@@ -368,7 +368,10 @@ form {
 }
 #bio-home-details {
 	text-align: center;
-	padding: 3em;
+	padding-top: 3em;
+	padding-bottom: 3em;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 .buttons-home {
 	padding: 3em;
