@@ -347,7 +347,7 @@ form {
 	color: rgb(255, 255, 255);
 }
 #get-started-section {
-	margin: 9em;
+	margin: 9em 0em 9em 9em;
 }
 #button-home-details {
 	text-align: center;
