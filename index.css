@@ -48,27 +48,27 @@ tr:nth-child(even) {
 	display: none;
 	background-color: rgb(243, 242, 239);
 	margin: 0;
-	padding-bottom: 2em;
-	padding-left: 0em;
-	padding-right: 0em;
-	padding-top: 0em;
+	padding-bottom: 2vw;
+	padding-left: 0vw;
+	padding-right: 0vw;
+	padding-top: 0vw;
 }
 #experience {
 	display: none;
 	background-color: rgb(243, 242, 239);
 	margin: 0;
-	padding-bottom: 3em;
+	padding-bottom: 3vw;
 }
 #contact {
 	display: none;
 	background-color: rgb(243, 242, 239);
 	margin: 0;
-	padding-bottom: 5em;
+	padding-bottom: 5vw;
 }
 #profile-picture {
-	min-width: 10em;
-	max-width: 60em;
-	max-height: 100em;
+	min-width: 10vw;
+	max-width: 60vw;
+	max-height: 100vw;
 	/* min-height: 90em; */
 	border-radius: 0.5em;
 	padding: 0;
@@ -87,12 +87,12 @@ tr:nth-child(even) {
 #body-title {
 	/* width: 75%; */
 	margin: auto;
-	padding-top: 4em;
+	padding-top: 4vw;
 	padding-left: calc(0.05rem + 10vw);
 	padding-right: calc(0.05rem + 10vw);
 }
 #body-title p {
-	font-size: 3em;
+	font-size: 3vw;
 }
 .body-information {
 	/* margin-left: 10em; */
@@ -176,8 +176,8 @@ tr:nth-child(even) {
 	padding-left: calc(0.05rem + 10vw);
 	padding-top: 0;
 	padding-right: calc(0.05rem + 10vw);
-	padding-bottom: 1.5em;
-	margin-top: 1.5em;
+	padding-bottom: 1.5vw;
+	margin-top: 1.5vw;
 }
 #contact-section .columns {
 	padding: 0;
