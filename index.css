@@ -124,8 +124,10 @@ tr:nth-child(even) {
 }
 #body-contact-information {
 	background-color: #8cacd3;
-	padding-top: 3em;
-	padding-bottom: 5em;
+	padding-top: 3vw;
+	padding-bottom: calc(5em + 3vw);
+	padding-right: 0em;
+	padding-left: 0em;
 	text-align: right;
 }
 .container {
