@@ -106,7 +106,7 @@ tr:nth-child(even) {
 	color: rgb(255, 255, 255);
 }
 .body-form {
-	padding-bottom: 3vw;
+	padding-bottom: calc(1vw + 2em);
 	padding-left: 1vw;
 	padding-right: 1vw;
 	padding-top: 1vw;
@@ -124,8 +124,8 @@ tr:nth-child(even) {
 }
 #body-contact-information {
 	background-color: #8cacd3;
-	padding-top: 3vw;
-	padding-bottom: 5vw;
+	padding-top: 3em;
+	padding-bottom: 5em;
 	text-align: right;
 }
 .container {
