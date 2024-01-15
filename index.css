@@ -49,6 +49,9 @@ tr:nth-child(even) {
 	background-color: rgb(243, 242, 239);
 	margin: 0;
 	padding-bottom: 2em;
+	padding-left: 0em;
+	padding-right: 0em;
+	padding-top: 0em;
 }
 #experience {
 	display: none;
